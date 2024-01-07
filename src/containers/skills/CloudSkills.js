@@ -1,20 +1,19 @@
 import React, { useContext } from "react";
 import "./Skills.scss";
 import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
-import { illustration, skillsSection } from "../../portfolio";
+import { illustration, cloudSkillsSection } from "../../portfolio";
 import { Fade } from "react-reveal";
 import codingPerson from "../../assets/lottie/codingPerson";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import StyleContext from "../../contexts/StyleContext";
 
-export default function Skills() {
+export default function CloudSkills() {
     const { isDark } = useContext(StyleContext);
-    if (!skillsSection.display) {
+    if (!cloudSkillsSection.display) {
         return null;
     }
     return (
         <div className={isDark ? "dark-mode main" : "main"} id="skills">
-            <h1 class="skills-header">What I Do ?</h1>
             <div className="skills-main-div">
                 <Fade left duration={1000}>
                     <div className="skills-image-div">
@@ -30,11 +29,11 @@ export default function Skills() {
                 </Fade>
                 <Fade right duration={1000}>
                     <div className="skills-text-div">
-                        <h2
+                        <h1
                             className={isDark ? "dark-mode skills-heading" : "skills-heading"}
                         >
-                            {skillsSection.title}{" "}
-                        </h2>
+                            {cloudSkillsSection.title}{" "}
+                        </h1>
                         <p
                             className={
                                 isDark
@@ -42,11 +41,11 @@ export default function Skills() {
                                     : "subTitle skills-text-subtitle"
                             }
                         >
-                            {skillsSection.subTitle}
+                            {cloudSkillsSection.subTitle}
                         </p>
-                        <SoftwareSkill softwareSkills={skillsSection.softwareSkills}/>
+                        <SoftwareSkill softwareSkills={cloudSkillsSection.softwareSkills} />
                         <div>
-                            {skillsSection.skills.map((skills, i) => {
+                            {cloudSkillsSection.skills.map((skills, i) => {
                                 return (
                                     <p
                                         key={i}

@@ -42,6 +42,187 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
+    title: "Techinical Leadership",
+    subTitle: "Software development leader with over 17 years of expertise, specializing in strategic planning, technical leadership, and proficient project delivery ",
+    skills: [
+        emoji(
+            "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+        ),
+        emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+        emoji(
+            "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+        )
+    ],
+
+    /* Make Sure to include correct Font Awesome Classname to view your icon
+  https://fontawesome.com/icons?d=gallery */
+
+    softwareSkills: [
+        {
+            skillName: "Azure Cloud",
+            fontAwesomeClassname: "simple-icons:microsoftazure",
+            style: {
+                color: "#0089D6",
+            },
+        },
+        {
+            skillName: "DevOps",
+            fontAwesomeClassname: "cib:azure-pipelines",
+            style: {
+                color: "#F15A24",
+            },
+        },
+        {
+            skillName: "C#",
+            fontAwesomeClassname: "simple-icons:csharp",
+            style: {
+                color: "#239120",
+            },
+        },
+        {
+            skillName: "API/REST/RPC",
+            fontAwesomeClassname: "icon-park:api",
+        }, {
+            skillName: "Distributed Systems",
+            fontAwesomeClassname: "logos:redis"
+        },
+        {
+            skillName: "Asp.Net Core",
+            fontAwesomeClassname: "simple-icons:dotnet",
+            style: {
+                color: "#512BD4",
+            },
+        },
+        {
+            skillName: "Docker",
+            fontAwesomeClassname: "simple-icons:docker",
+            style: {
+                color: "#2496ED",
+            },
+        },
+        {
+            skillName: "Git",
+            fontAwesomeClassname: "simple-icons:git",
+            style: {
+                color: "#F1502F",
+            },
+        },
+        {
+            skillName: "RabbitMq",
+            fontAwesomeClassname: "simple-icons:rabbitmq",
+            style: {
+                color: "#FF6600",
+            },
+        },
+        {
+            skillName: "Machine Learning",
+            fontAwesomeClassname: "carbon:machine-learning",
+            style: {
+                color: "#0089D6",
+            },
+        },
+        {
+            skillName: "Apache Kafka",
+            fontAwesomeClassname: "simple-icons:apachekafka",
+            style: {
+                color: "#239120",
+            },
+        },
+        {
+            skillName: "JavaScript",
+            fontAwesomeClassname: "simple-icons:javascript",
+            style: {
+                color: "#F7DF1E",
+            },
+        }, {
+            skillName: "DesignPatterns",
+            fontAwesomeClassname: "carbon:ibm-watsonx-code-assistant-for-z-refactor",
+            style: {
+                color: "#FFD700",
+            },
+        },
+        {
+            skillName: "Angular",
+            fontAwesomeClassname: "devicon:angular",
+            style: {
+                color: "#DA552F",
+            },
+        },
+        {
+            skillName: "CosmosDb",
+            fontAwesomeClassname: "devicon:cosmosdb",
+            style: {
+                color: "#00B88B",
+            },
+        },
+        {
+            skillName: "MongoDb",
+            fontAwesomeClassname: "devicon:mongodb",
+            style: {
+                color: "#FF8C00",
+            },
+        }, {
+            skillName: "GenerativeAI",
+            fontAwesomeClassname: "arcticons:openai-chatgpt",
+            style: {
+                color: "teal",
+            },
+        },
+        {
+            skillName: "Kendo UI",
+            imageSrc: "Kendo_UI_vector_logo.png"
+        }, {
+            skillName: "Secure Coding",
+            fontAwesomeClassname: "iconoir:secure-window",
+            style: {
+                color: "#FF8C00",
+            },
+        },
+        {
+            skillName: "Sitefinity",
+            imageSrc: "sitefinity.svg",
+            style: {
+                fill: "#5ce500",
+            },
+        },
+     
+
+        {
+            skillName: "Database-Design",
+            fontAwesomeClassname: "devicon:azuresqldatabase",
+            style: {
+                color: "#0089D6",
+            },
+        }, {
+            skillName: "IOT",
+            fontAwesomeClassname: "eos-icons:iot",
+            style: {
+                color: "#4479A1",
+            },
+        }
+        ,
+        {
+            skillName: "Automation",
+            fontAwesomeClassname: "vaadin:automation",
+            style: {
+                color: "#4479A1",
+            },
+        },
+
+        {
+            skillName: "HTML5",
+            fontAwesomeClassname: "simple-icons:html5",
+            style: {
+                color: "#E34F26",
+            },
+        }
+        
+
+    ],
+    display: true // Set false to hide this section, defaults to true
+};
+
+const cloudSkillsSection = {
     title: "What I do",
     subTitle: "Software development leader with over 17 years of expertise, specializing in strategic planning, technical leadership, and proficient project delivery ",
     skills: [
@@ -123,7 +304,6 @@ const skillsSection = {
     ],
     display: true // Set false to hide this section, defaults to true
 };
-
 // Education Section
 
 const educationInfo = {
@@ -386,6 +566,7 @@ export {
     socialMediaLinks,
     splashScreen,
     skillsSection,
+    cloudSkillsSection,
     educationInfo,
     techStack,
     workExperiences,
