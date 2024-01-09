@@ -3,7 +3,7 @@ import "./Skills.scss";
 import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
 import { illustration, cloudSkillsSection } from "../../portfolio";
 import { Fade } from "react-reveal";
-import codingPerson from "../../assets/lottie/codingPerson";
+import cloud from "../../assets/lottie/cloud";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import StyleContext from "../../contexts/StyleContext";
 
@@ -18,7 +18,7 @@ export default function CloudSkills() {
                 <Fade left duration={1000}>
                     <div className="skills-image-div">
                         {illustration.animated ? (
-                            <DisplayLottie animationData={codingPerson} />
+                            <DisplayLottie animationData={cloud} />
                         ) : (
                             <img
                                 alt="Man Working"

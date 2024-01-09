@@ -45,26 +45,15 @@ const skillsSection = {
     title: "Techinical Leadership",
     subTitle: "Software development leader with over 17 years of expertise, specializing in strategic planning, technical leadership, and proficient project delivery ",
     skills: [
-        emoji(
-            "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-        ),
-        emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-        emoji(
-            "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-        )
+        emoji("⚡ Hands on approach on software development, infrastructure , deployment pipelines design and code security"),
+        emoji("⚡ Led initiatives to fortify code and infrastructure security, demonstrating a steadfast commitment to robust practices, achieving industry compliance, and addressing potential vulnerabilities"),
+        emoji("⚡ Proven track record in driving innovation, legacy code migration,  implementing best practices, and delivering complex projects on time and within budget.")
     ],
 
     /* Make Sure to include correct Font Awesome Classname to view your icon
   https://fontawesome.com/icons?d=gallery */
 
     softwareSkills: [
-        {
-            skillName: "Azure Cloud",
-            fontAwesomeClassname: "simple-icons:microsoftazure",
-            style: {
-                color: "#0089D6",
-            },
-        },
         {
             skillName: "DevOps",
             fontAwesomeClassname: "cib:azure-pipelines",
@@ -78,29 +67,7 @@ const skillsSection = {
             style: {
                 color: "#239120",
             },
-        },
-        {
-            skillName: "API/REST/RPC",
-            fontAwesomeClassname: "icon-park:api",
         }, {
-            skillName: "Distributed Systems",
-            fontAwesomeClassname: "logos:redis"
-        },
-        {
-            skillName: "Asp.Net Core",
-            fontAwesomeClassname: "simple-icons:dotnet",
-            style: {
-                color: "#512BD4",
-            },
-        },
-        {
-            skillName: "Docker",
-            fontAwesomeClassname: "simple-icons:docker",
-            style: {
-                color: "#2496ED",
-            },
-        },
-        {
             skillName: "Git",
             fontAwesomeClassname: "simple-icons:git",
             style: {
@@ -108,24 +75,21 @@ const skillsSection = {
             },
         },
         {
-            skillName: "RabbitMq",
-            fontAwesomeClassname: "simple-icons:rabbitmq",
+            skillName: "API/REST/RPC",
+            fontAwesomeClassname: "icon-park:api",
+        },
+        {
+            skillName: "HTML5",
+            fontAwesomeClassname: "simple-icons:html5",
             style: {
-                color: "#FF6600",
+                color: "#E34F26",
             },
         },
         {
-            skillName: "Machine Learning",
-            fontAwesomeClassname: "carbon:machine-learning",
+            skillName: "CSS3",
+            fontAwesomeClassname: "devicon:css3",
             style: {
-                color: "#0089D6",
-            },
-        },
-        {
-            skillName: "Apache Kafka",
-            fontAwesomeClassname: "simple-icons:apachekafka",
-            style: {
-                color: "#239120",
+                color: "#512BD4",
             },
         },
         {
@@ -133,12 +97,6 @@ const skillsSection = {
             fontAwesomeClassname: "simple-icons:javascript",
             style: {
                 color: "#F7DF1E",
-            },
-        }, {
-            skillName: "DesignPatterns",
-            fontAwesomeClassname: "carbon:ibm-watsonx-code-assistant-for-z-refactor",
-            style: {
-                color: "#FFD700",
             },
         },
         {
@@ -149,10 +107,36 @@ const skillsSection = {
             },
         },
         {
-            skillName: "CosmosDb",
-            fontAwesomeClassname: "devicon:cosmosdb",
+            skillName: "Distributed Systems",
+            fontAwesomeClassname: "logos:redis"
+        },
+        {
+            skillName: "Asp.Net Core",
+            fontAwesomeClassname: "simple-icons:dotnet",
             style: {
-                color: "#00B88B",
+                color: "#512BD4",
+            },
+        },
+
+        {
+            skillName: "RabbitMq",
+            fontAwesomeClassname: "simple-icons:rabbitmq",
+            style: {
+                color: "#FF6600",
+            },
+        },
+        {
+            skillName: "Apache Kafka",
+            fontAwesomeClassname: "simple-icons:apachekafka",
+            style: {
+                color: "#239120",
+            },
+        },
+         {
+            skillName: "DesignPatterns",
+            fontAwesomeClassname: "carbon:ibm-watsonx-code-assistant-for-z-refactor",
+            style: {
+                color: "#FFD700",
             },
         },
         {
@@ -185,8 +169,6 @@ const skillsSection = {
                 fill: "#5ce500",
             },
         },
-     
-
         {
             skillName: "Database-Design",
             fontAwesomeClassname: "devicon:azuresqldatabase",
@@ -208,30 +190,32 @@ const skillsSection = {
                 color: "#4479A1",
             },
         },
-
         {
-            skillName: "HTML5",
-            fontAwesomeClassname: "simple-icons:html5",
+            skillName: "QuantConnect",
+            fontAwesomeClassname: "simple-icons:quantconnect",
             style: {
-                color: "#E34F26",
+                color: "#f5ae29",
             },
-        }
-        
 
+        },
+        {
+            skillName: ".NET MAUI",
+            fontAwesomeClassname: "devicon:xamarin",
+        }
     ],
     display: true // Set false to hide this section, defaults to true
 };
 
 const cloudSkillsSection = {
-    title: "What I do",
-    subTitle: "Software development leader with over 17 years of expertise, specializing in strategic planning, technical leadership, and proficient project delivery ",
+    title: "Cloud Technologies",
+    subTitle: "Proficient in cloud platforms , containerization (Docker), and serverless architectures",
     skills: [
         emoji(
-            "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+            "⚡ Hold multiple Azure certifications, including Azure Solutions Architect Expert"
         ),
-        emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+        emoji("⚡ Demonstrated expertise in Cloud Cost Management, reducing Azure costs by 40% through optimization of cloud resources while increasing the Azure footprint."),
         emoji(
-            "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+            "⚡ Implemented Azure monitoring solutions for real-time performance tracking, identifying bottlenecks and optimizing cloud infrastructure to deliver optimal user experiences"
         )
     ],
 
@@ -240,66 +224,110 @@ const cloudSkillsSection = {
 
     softwareSkills: [
         {
-            skillName: "html-5",
-            fontAwesomeClassname: "fab fa-html5",
+            skillName: "Azure Cloud",
+            fontAwesomeClassname: "simple-icons:microsoftazure",
             style: {
-                color: "#E34F26",
+                color: "#0089D6",
             },
         },
         {
-            skillName: "Tensorflow",
-            fontAwesomeClassname: "logos-tensorflow",
+            skillName: "Docker",
+            fontAwesomeClassname: "simple-icons:docker",
             style: {
-                backgroundColor: "transparent",
+                color: "#2496ED",
             },
         },
         {
-            skillName: "css3",
-            fontAwesomeClassname: "fab fa-css3-alt"
+            skillName: "Azure Machine Learning",
+            fontAwesomeClassname: "carbon:machine-learning",
+            style: {
+                color: "#0089D6",
+            },
         },
         {
-            skillName: "sass",
-            fontAwesomeClassname: "fab fa-sass"
+            skillName: "Azure Cognitive Services",
+            fontAwesomeClassname: "streamline:brain-cognitive-solid",
+            style: {
+                color: "#0089D6",
+            },
         },
         {
-            skillName: "JavaScript",
-            fontAwesomeClassname: "fab fa-js"
+            skillName: "CosmosDb",
+            fontAwesomeClassname: "devicon:cosmosdb",
+            style: {
+                color: "#00B88B",
+            },
         },
         {
-            skillName: "Angular",
-            fontAwesomeClassname: "fab fa-angular"
+            skillName: "Azure Event Hubs",
+            fontAwesomeClassname: "ic:outline-hub",
+            style: {
+                color: "#0078D4",
+            },
+        },
+   
+        {
+            skillName: "VNET",
+            fontAwesomeClassname: "fluent:virtual-network-20-filled",
+            style: {
+                color: "#F03A17",
+            },
         },
         {
-            skillName: "nodejs",
-            fontAwesomeClassname: "fab fa-node"
+            skillName: "Azure Functions",
+            fontAwesomeClassname: "simple-icons:azurefunctions",
+            style: {
+                color: "yellow",
+            },
         },
         {
-            skillName: "swift",
-            fontAwesomeClassname: "fab fa-swift"
+            skillName: "Azure Key Vault",
+            fontAwesomeClassname: "ph:vault-bold",
+            style: {
+                color: "yellow",
+            },
         },
         {
-            skillName: "npm",
-            fontAwesomeClassname: "fab fa-npm"
+            skillName: "Azure Storage",
+            fontAwesomeClassname: "solar:cloud-storage-outline",
+            style: {
+                color: "#008AD7",
+            },
         },
         {
-            skillName: "sql-database",
-            fontAwesomeClassname: "fas fa-database"
+            skillName: "Gateway",
+            fontAwesomeClassname: "ant-design:gateway-outlined",
+            style: {
+                color: "#008AD7",
+            },
         },
         {
-            skillName: "aws",
-            fontAwesomeClassname: "fab fa-aws"
+            skillName: "WAF",
+            fontAwesomeClassname: "mdi:firewall",
+            style: {
+                color: "red",
+            },
         },
         {
-            skillName: "firebase",
-            fontAwesomeClassname: "fas fa-fire"
+            skillName: "Load Balancer",
+            fontAwesomeClassname: "carbon:load-balancer-network",
+            style: {
+                color: "red",
+            },
         },
         {
-            skillName: "python",
-            fontAwesomeClassname: "fab fa-python"
+            skillName: "Azure App Service",
+            fontAwesomeClassname: "ph:globe-bold",
+            style: {
+                color: "#0089D6",
+            },
         },
         {
-            skillName: "docker",
-            fontAwesomeClassname: "fab fa-docker"
+            skillName: "Bicep/ARM",
+            fontAwesomeClassname: "icomoon-free:insert-template",
+            style: {
+                color: "yellow",
+            },
         }
     ],
     display: true // Set false to hide this section, defaults to true
