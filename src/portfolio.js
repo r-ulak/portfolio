@@ -338,23 +338,21 @@ const educationInfo = {
     display: true, // Set false to hide this section, defaults to true
     schools: [
         {
-            schoolName: "Harvard University",
-            logo: require("./assets/images/harvardLogo.png"),
+            schoolName: "Colorado State University",
+            logo: require("./assets/images/csu.png"),
             subHeader: "Master of Science in Computer Science",
-            duration: "September 2017 - April 2019",
-            desc: "Participated in the research of XXX and published 3 papers.",
-            descBullets: [
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-            ]
+            desc: "GPA 3.85",
+       
         },
         {
-            schoolName: "Stanford University",
-            logo: require("./assets/images/stanfordLogo.png"),
+            schoolName: "University of Central Oklahoma",
+            logo: require("./assets/images/uco.png"),
             subHeader: "Bachelor of Science in Computer Science",
-            duration: "September 2013 - April 2017",
-            desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-            descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+            desc: "Outstanding Student Researcher Award 2009",
+            descBullets: [
+                "Consortium for Computing Sciences in Colleges 20thAnnual South Central Regional Conference - 1st Prize Recipient",
+                "Dean's Honor Roll -University of Central Oklahoma 2005, 2006, 2007, 2008,2009"
+            ]
         }
     ]
 };
@@ -362,7 +360,7 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-    viewSkillBars: true, //Set it to true to show Proficiency Section
+    viewSkillBars: false, //Set it to true to show Proficiency Section
     experience: [
         {
             Stack: "Frontend/Design", //Insert stack or technology you have experience in
@@ -386,10 +384,10 @@ const workExperiences = {
     display: true, //Set it to true to show workExperiences Section
     experience: [
         {
-            role: "Software Engineer",
-            company: "Facebook",
-            companylogo: require("./assets/images/facebookLogo.png"),
-            date: "June 2018 – Present",
+            role: "Senior Manager Software Engineer",
+            company: "DART",
+            companylogo: require("./assets/images/dart.png"),
+            date: "Aug 2019 – Present",
             desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
             descBullets: [
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -397,17 +395,66 @@ const workExperiences = {
             ]
         },
         {
-            role: "Front-End Developer",
-            company: "Quora",
-            companylogo: require("./assets/images/quoraLogo.png"),
-            date: "May 2017 – May 2018",
+            role: "Founder",
+            company: "Rojan Ulak LLC",
+            companylogo: require("./assets/images/jpcycle.svg"),
+            date: "Jan 2016 – Present",
             desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         },
         {
-            role: "Software Engineer Intern",
-            company: "Airbnb",
-            companylogo: require("./assets/images/airbnbLogo.png"),
-            date: "Jan 2015 – Sep 2015",
+            role: "Senior Software Engineer - Contractor",
+            company: "Thompson Reuters",
+            companylogo: require("./assets/images/wg.png"),
+            date: "Jun 2019 – Aug 2019",
+            desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        },
+        {
+            role: "Senior Software Engineer",
+            company: "WatchGuard Video",
+            companylogo: require("./assets/images/hpe.png"),
+            date: "Dec 2018 – Jun 2019",
+            desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        },
+        {
+            role: "Senior Developer | Architect - Contractor",
+            company: "DART",
+            companylogo: require("./assets/images/jpcycle.svg"),
+            date: "Jul 2017 – Dec 2018",
+            desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        },
+        {
+            role: "Founder",
+            company: "DataCareEmr",
+            companylogo: require("./assets/images/jpcycle.svg"),
+            date: "Dec 2012 – Jan 2018",
+            desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        },
+        {
+            role: "Senior Developer - Contractor",
+            company: "WorldVentures",
+            companylogo: require("./assets/images/jpcycle.svg"),
+            date: "Dec 2012 – Jan 2018",
+            desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        },
+        {
+            role: "Software Engineer III - Contractor",
+            company: "Motorsport Aftermarket Group, Inc. (MAG)",
+            companylogo: require("./assets/images/jpcycle.svg"),
+            date: "Sep 2015 – Mar 2016",
+            desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        },
+        {
+            role: "Technical Lead",
+            company: "Hewlett Packard Enterprise",
+            companylogo: require("./assets/images/jpcycle.svg"),
+            date: "Oct 2009 – Sep 2015",
+            desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        },
+        {
+            role: "CoFounder",
+            company: "Collaborative Fusion Solution",
+            companylogo: require("./assets/images/jpcycle.svg"),
+            date: "Dec 2008 – Dec 2009",
             desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         }
     ]
@@ -464,23 +511,15 @@ const achievementSection = {
 
     achievementsCards: [
         {
-            title: "Google Code-In Finalist",
+            title: "20th Annual South Central Regional Conference",
             subtitle:
-                "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-            image: require("./assets/images/codeInLogo.webp"),
-            imageAlt: "Google Code-In Logo",
+                "1st Prize Recipient- Consortium for Computing Sciences in Colleges",
+            image: require("./assets/images/ccsc.png"),
+            imageAlt: "CSSC logo",
             footerLink: [
                 {
-                    name: "Certification",
-                    url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-                },
-                {
-                    name: "Award Letter",
-                    url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-                },
-                {
-                    name: "Google Code-in Blog",
-                    url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+                    name: "Poster",
+                    url: "https://www.ccsc.org/southcentral/E-Journal/2009/student_posters.html"
                 }
             ]
         },
@@ -536,7 +575,7 @@ const blogSection = {
                 "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
         }
     ],
-    display: true // Set false to hide this section, defaults to true
+    display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -555,7 +594,7 @@ const talkSection = {
             event_url: "https://www.facebook.com/events/2339906106275053/"
         }
     ],
-    display: true // Set false to hide this section, defaults to true
+    display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -568,25 +607,24 @@ const podcastSection = {
     podcast: [
         "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
     ],
-    display: true // Set false to hide this section, defaults to true
+    display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
     title: emoji("Contact Me ☎️"),
     subtitle:
         "Discuss a project or just want to say hi? My Inbox is open for all.",
-    number: "+92-0000000000",
-    email_address: "saadpasta70@gmail.com"
+    email_address: "rojan.ulak@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
     userName: "twitter", //Replace "twitter" with your twitter username without @
-    display: true // Set true to display this section, defaults to false
+    display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
     illustration,
