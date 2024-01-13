@@ -132,7 +132,7 @@ const skillsSection = {
                 color: "#239120",
             },
         },
-         {
+        {
             skillName: "DesignPatterns",
             fontAwesomeClassname: "carbon:ibm-watsonx-code-assistant-for-z-refactor",
             style: {
@@ -265,7 +265,7 @@ const cloudSkillsSection = {
                 color: "#0078D4",
             },
         },
-   
+
         {
             skillName: "VNET",
             fontAwesomeClassname: "fluent:virtual-network-20-filled",
@@ -342,7 +342,7 @@ const educationInfo = {
             logo: require("./assets/images/csu.png"),
             subHeader: "Master of Science in Computer Science",
             desc: "GPA 3.85",
-       
+
         },
         {
             schoolName: "University of Central Oklahoma",
@@ -524,30 +524,144 @@ const achievementSection = {
             ]
         },
         {
-            title: "Google Assistant Action",
+            title: "Outstanding Student Researcher",
             subtitle:
-                "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-            image: require("./assets/images/googleAssistantLogo.webp"),
-            imageAlt: "Google Assistant Action Logo",
+                "Issued by University of Central Oklahoma · Oct 2009",
+            image: require("./assets/images/osr.png"),
+            imageAlt: "UCO Logo",
             footerLink: [
-                {
-                    name: "View Google Assistant Action",
-                    url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-                }
             ]
         },
 
         {
-            title: "PWA Web App Developer",
-            subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-            image: require("./assets/images/pwaLogo.webp"),
-            imageAlt: "PWA Logo",
+            title: "National Inter College Software Competition",
+            subtitle: "3rd Prize Recipient Chosen among high school and college students from all over the nation. Jan 2002",
+            image: require("./assets/images/noc.png"),
+            imageAlt: "Logo",
             footerLink: [
-                { name: "Certification", url: "" },
+
+            ]
+        }, {
+            title: "Microsoft Certified: Azure Fundamentals",
+            subtitle:
+                "Issued Aug 2023",
+            image: require("./assets/images/msft.jpg"),
+            imageAlt: "msft logo",
+            footerLink: [
                 {
-                    name: "Final Project",
-                    url: "https://pakistan-olx-1.firebaseapp.com/"
+                    name: "Certificate",
+                    url: "https://learn.microsoft.com/en-us/users/rojan/credentials/ea31b3249d9a4c1d"
                 }
+            ]
+        }, {
+            title: "Microsoft Certified: Azure Developer Associate",
+            subtitle:
+                "Issued Aug 2023",
+            image: require("./assets/images/msft.jpg"),
+            imageAlt: "msft logo",
+            footerLink: [
+                {
+                    name: "Certificate",
+                    url: "https://learn.microsoft.com/en-us/users/rojan/credentials/593C65C32686987"
+                }
+            ]
+        }, {
+            title: "Microsoft Certified: Azure Administrator Associate",
+            subtitle:
+                "Issued Sep 2023",
+            image: require("./assets/images/msft.jpg"),
+            imageAlt: "msft logo",
+            footerLink: [
+                {
+                    name: "Certificate",
+                    url: "https://learn.microsoft.com/en-us/users/rojan/credentials/D1080210E21D1346"
+                }
+            ]
+        }, {
+            title: "Microsoft Certified: Azure Solutions Architect Expert",
+            subtitle:
+                "Issued Sep 2023",
+            image: require("./assets/images/msft.jpg"),
+            imageAlt: "msft logo",
+            footerLink: [
+                {
+                    name: "Certificate",
+                    url: "https://learn.microsoft.com/en-us/users/rojan/credentials/FC102CC02931924D"
+                }
+            ]
+        }, {
+            title: "Agile Software Development",
+            subtitle: "Issued Oct 2023",
+            image: require("./assets/images/linkedin.jpg"),
+            imageAlt: "linkedin logo",
+            footerLink: [
+                {
+                    name: "Certificate",
+                    url: "https://www.linkedin.com/learning/certificates/5a3f14bc210999aa2945e5cf952ca48c863cb693ffa7e155221e95d303dc30ad?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BRFpFMwxGTkaLzaO9U2YoAg%3D%3D"
+                }
+            ]
+        }, {
+            title: "Azure OpenAI: Generative AI Models and How to Use Them",
+            subtitle: "Issued Oct 2023",
+            image: require("./assets/images/linkedin.jpg"),
+            imageAlt: "linkedin logo",
+            footerLink: [
+                {
+                    name: "Certificate",
+                    url: "https://www.linkedin.com/learning/certificates/00861de1e6c1b498f742b44430dcf6817e2295fb831964c08e4269c40e765eb7?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BRFpFMwxGTkaLzaO9U2YoAg%3D%3D"
+                }
+            ]
+        }, {
+            title: "Communicating with Executives",
+            subtitle: "Issued Oct 2023",
+            image: require("./assets/images/linkedin.jpg"),
+            imageAlt: "linkedin logo",
+            footerLink: [
+                {
+                    name: "Certificate",
+                    url: "https://www.linkedin.com/learning/certificates/8add7accd7d653de236f72688a9dfa0f59506985dda82dd3c937114501b3a841?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BRFpFMwxGTkaLzaO9U2YoAg%3D%3D"
+                }
+            ]
+        }, {
+            title: "How to Learn Faster",
+            subtitle: "Issued Oct 2023",
+            image: require("./assets/images/linkedin.jpg"),
+            imageAlt: "linkedin logo",
+            footerLink: [
+                {
+                    name: "Certificate",
+                    url: "https://www.linkedin.com/learning/certificates/aebcc8c9fa6825240b7c61e17354ba038203638b3c7bbbac65caf3e09fe5a06d?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BRFpFMwxGTkaLzaO9U2YoAg%3D%3D"                }
+            ]
+        }, {
+            title: "How to Speak with Effortless Confidence",
+            subtitle: "Issued Oct 2023",
+            image: require("./assets/images/linkedin.jpg"),
+            imageAlt: "linkedin logo",
+            footerLink: [
+                {
+                    name: "Certificate",
+                    url: "https://www.linkedin.com/learning/certificates/0a01be157e2140c784350eb04906127578828d7ba0ef32faa8df7116dd091fc6?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BRFpFMwxGTkaLzaO9U2YoAg%3D%3D"
+                }
+            ]
+        }, {
+            title: "Leading with Innovation",
+            subtitle: "Issued Oct 2023",
+            image: require("./assets/images/linkedin.jpg"),
+            imageAlt: "linkedin logo",
+            footerLink: [
+                {
+                    name: "Certificate",
+                    url: "https://www.linkedin.com/learning/certificates/dc8b37330412441a2f1d0ead90d08d4a68828c9354bb4b3d5f469c90fd2d7825?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BRFpFMwxGTkaLzaO9U2YoAg%3D%3D"}
+            ]
+        }, {
+            title: "Pair Programming with AI",
+            subtitle: "Issued Oct 2023",
+            image: require("./assets/images/linkedin.jpg"),
+            imageAlt: "linkedin logo",
+            footerLink: [
+                {
+                    name: "Certificate",
+                    url: "https://www.linkedin.com/learning/certificates/9f28439e8f849de1b38e5ded0981a3eb085d2b282e5b16deb85c969b2f29ad78?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BRFpFMwxGTkaLzaO9U2YoAg%3D%3D"}
             ]
         }
     ],
