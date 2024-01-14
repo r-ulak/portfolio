@@ -386,77 +386,85 @@ const workExperiences = {
         {
             role: "Senior Manager Software Engineer",
             company: "DART",
-            companylogo: require("./assets/images/dart.png"),
+            companylogo: require("./assets/images/work.png"),
             date: "Aug 2019 – Present",
-            desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            desc: "Demonstrated success in improving code security, achieving PCI compliance, and leading agile practices implementation for enhanced project outcomes.",
             descBullets: [
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+                "Implemented cost-saving measures, reducing Azure costs by 40% and adopting a cloud-first approach for legacy app migrations.",
+                "Led the swift, in-house development of DARTAccess, generating $15 million annually, replacing a failed third-party vendor."
             ]
         },
         {
             role: "Founder",
             company: "Rojan Ulak LLC",
-            companylogo: require("./assets/images/jpcycle.svg"),
+            companylogo: require("./assets/images/work.png"),
             date: "Jan 2016 – Present",
-            desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            desc: "Established an independent software consulting business, specializing in custom software solutions.",
+            descBullets: [
+                "Managed end-to-end project lifecycles, including requirement analysis, solution design, coding, testing, and deployment.",
+                "Demonstrated adaptability by working on a variety of projects spanning different industries, showcasing a versatile skill set."
+            ]
         },
         {
             role: "Senior Software Engineer - Contractor",
             company: "Thompson Reuters",
-            companylogo: require("./assets/images/wg.png"),
+            companylogo: require("./assets/images/work.png"),
             date: "Jun 2019 – Aug 2019",
-            desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            desc: "Results-driven Senior Software Engineer at Thomson Reuters, contributing to the development of innovative solutions for a multinational media conglomerate.",            
+            descBullets: [
+                "Spearheaded the Dockerization of Node.js applications, optimizing efficiency and scalability in a corporate tax application.",
+                "Conducted comprehensive training sessions on Docker solutions, empowering developers with valuable skills and best practices."
+            ]
         },
         {
             role: "Senior Software Engineer",
             company: "WatchGuard Video",
-            companylogo: require("./assets/images/hpe.png"),
+            companylogo: require("./assets/images/work.png"),
             date: "Dec 2018 – Jun 2019",
             desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         },
         {
             role: "Senior Developer | Architect - Contractor",
             company: "DART",
-            companylogo: require("./assets/images/jpcycle.svg"),
+            companylogo: require("./assets/images/work.png"),
             date: "Jul 2017 – Dec 2018",
             desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         },
         {
             role: "Founder",
             company: "DataCareEmr",
-            companylogo: require("./assets/images/jpcycle.svg"),
+            companylogo: require("./assets/images/work.png"),
             date: "Dec 2012 – Jan 2018",
             desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         },
         {
             role: "Senior Developer - Contractor",
             company: "WorldVentures",
-            companylogo: require("./assets/images/jpcycle.svg"),
+            companylogo: require("./assets/images/work.png"),
             date: "Dec 2012 – Jan 2018",
             desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         },
         {
             role: "Software Engineer III - Contractor",
             company: "Motorsport Aftermarket Group, Inc. (MAG)",
-            companylogo: require("./assets/images/jpcycle.svg"),
+            companylogo: require("./assets/images/work.png"),
             date: "Sep 2015 – Mar 2016",
             desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        },
-        {
+        }, {
             role: "Technical Lead",
             company: "Hewlett Packard Enterprise",
-            companylogo: require("./assets/images/jpcycle.svg"),
+            companylogo: require("./assets/images/work.png"),
             date: "Oct 2009 – Sep 2015",
             desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         },
         {
             role: "CoFounder",
             company: "Collaborative Fusion Solution",
-            companylogo: require("./assets/images/jpcycle.svg"),
+            companylogo: require("./assets/images/work.png"),
             date: "Dec 2008 – Dec 2009",
             desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         }
+        
     ]
 };
 
