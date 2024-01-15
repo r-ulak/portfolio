@@ -351,7 +351,7 @@ const educationInfo = {
             desc: "Outstanding Student Researcher Award 2009",
             descBullets: [
                 "Consortium for Computing Sciences in Colleges 20thAnnual South Central Regional Conference - 1st Prize Recipient",
-                "Dean's Honor Roll -University of Central Oklahoma 2005, 2006, 2007, 2008,2009"
+                "Dean's Honor Roll -University of Central Oklahoma 2005, 2006, 2007, 2008"
             ]
         }
     ]
@@ -507,28 +507,110 @@ const bigProjects = {
     subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
     projects: [
         {
-            image: require("./assets/images/saayaHealthLogo.webp"),
-            projectName: "Saayahealth",
-            projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+            image: require("./assets/images/dart.png"),
+            projectName: "www.dart.otg",
+            projectDesc: "DART(Dallas Area Rapid Transit) is a public transportation agency in Dallas, Texas, providing light rail, bus, and commuter rail services to the Dallas metropolitan area.",
             footerLink: [
                 {
                     name: "Visit Website",
-                    url: "http://saayahealth.com/"
+                    url: "https://www.dart.org/"
                 }
                 //  you can add extra buttons here.
             ]
         },
         {
-            image: require("./assets/images/nextuLogo.webp"),
-            projectName: "Nextu",
-            projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+            image: require("./assets/images/gopass.png"),
+            projectName: "Gopass.Org",
+            projectDesc: "GoPass is a website that offers a comprehensive platform for public transportation services, allowing users to plan and pay for their journeys in the Dallas metropolitan area.",
             footerLink: [
                 {
                     name: "Visit Website",
-                    url: "http://nextu.se/"
+                    url: "https://gopass.org/"
+                }
+            ]
+        },
+        {
+            image: require("./assets/images/dartaccess.png"),
+            projectName: "DARTAccess",
+            projectDesc: "Annual transit passes for more than 25 diffrent pass programs.",
+            footerLink: [
+                {
+                    name: "Visit Website",
+                    url: "https://pass.dart.org/"
+                }
+            ]
+        },
+        {
+            image: require("./assets/images/dt-logo.png"),
+            projectName: "DreamTrips",
+            projectDesc: " DreamTrips is a membership-based travel program offered by WorldVentures.",
+            footerLink: [
+                {
+                    name: "Visit Website",
+                    url: "https://www.dreamtrips.com/"
+                }
+            ]
+        },
+        {
+            image: require("./assets/images/jpcycles.png"),
+            projectName: "J&P Cycles",
+            projectDesc: "J&P Cycles is a leading online retailer specializing in aftermarket motorcycle parts, accessories, and gear for various brands.",
+            footerLink: [
+                {
+                    name: "Visit Website",
+                    url: "https://www.jpcycles.com/"
+                }
+            ]
+        },
+        {
+            image: require("./assets/images/tr-logo.png"),
+            projectName: "OneSource",
+            projectDesc: "OneSource by Thomson Reuters is a comprehensive tax provision software designed to streamline and optimize tax compliance and reporting processes for businesses.",
+            footerLink: [
+                {
+                    name: "Visit Website",
+                    url: "https://tax.thomsonreuters.com/en/onesource/tax-provision"
                 }
             ]
         }
+        ,
+        {
+            image: require("./assets/images/wgel.png"),
+            projectName: "Evidence Library",
+            projectDesc: "WatchGuard's Evidence Library System is a robust platform designed to manage and organize law enforcement video evidence, ensuring secure storage and streamlined retrieval for investigative purposes.",
+            footerLink: [
+                {
+                    name: "Visit Website",
+                    url: "https://www.motorolasolutions.com/en_us/video-security-access-control/record-after-the-fact.html"
+                }
+            ]
+        },
+        {
+            image: require("./assets/images/thinkara.png"),
+            projectName: "Thinkara",
+            projectDesc: "A social game developed by me, involving various aspects of social capital and the management of virtual wealth through different in-game features.",
+            footerLink: [
+                {
+                    name: "See YouTube video",
+                    url: "https://www.youtube.com/watch?v=CA72E_tQczk"},
+                {
+                    name: "View Source Code",
+                    url: "https://github.com/r-ulak/Thinkara" }
+            ]
+        }
+        ,
+        {
+            image: require("./assets/images/emr.png"),
+            projectName: "DataCare EMR",
+            projectDesc: "A EMR system developed by me, DataCareEMR is a healthcare software platform designed for efficient and comprehensive electronic medical records management",
+            footerLink: [
+                {
+                    name: "View Source Code",
+                    url: "https://github.com/r-ulak/DataCareEmr"
+                }
+            ]
+        }
+        
     ],
     display: true // Set false to hide this section, defaults to true
 };
@@ -537,43 +619,12 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-    title: emoji("Achievements And Certifications 🏆 "),
+    title: emoji("Certifications 🧑‍🎓"),
     subtitle:
-        "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+        "Certifications and Some Cool Stuff that I have done !",
 
     achievementsCards: [
         {
-            title: "20th Annual South Central Regional Conference",
-            subtitle:
-                "1st Prize Recipient- Consortium for Computing Sciences in Colleges",
-            image: require("./assets/images/ccsc.png"),
-            imageAlt: "CSSC logo",
-            footerLink: [
-                {
-                    name: "Poster",
-                    url: "https://www.ccsc.org/southcentral/E-Journal/2009/student_posters.html"
-                }
-            ]
-        },
-        {
-            title: "Outstanding Student Researcher",
-            subtitle:
-                "Issued by University of Central Oklahoma · Oct 2009",
-            image: require("./assets/images/osr.png"),
-            imageAlt: "UCO Logo",
-            footerLink: [
-            ]
-        },
-
-        {
-            title: "National Inter College Software Competition",
-            subtitle: "3rd Prize Recipient Chosen among high school and college students from all over the nation. Jan 2002",
-            image: require("./assets/images/noc.png"),
-            imageAlt: "Logo",
-            footerLink: [
-
-            ]
-        }, {
             title: "Microsoft Certified: Azure Fundamentals",
             subtitle:
                 "Issued Aug 2023",
@@ -702,7 +753,55 @@ const achievementSection = {
     ],
     display: true // Set false to hide this section, defaults to true
 };
+const awardsSection = {
+    title: emoji("Awards and Achievements🏆 "),
+    subtitle:
+        "Achievements, Award Letters I have received!",
 
+    achievementsCards: [
+        {
+            title: "20th Annual South Central Regional Conference",
+            subtitle:
+                "1st Prize Recipient- Consortium for Computing Sciences in Colleges",
+            image: require("./assets/images/ccsc.png"),
+            imageAlt: "CSSC logo",
+            footerLink: [
+                {
+                    name: "Poster",
+                    url: "https://www.ccsc.org/southcentral/E-Journal/2009/student_posters.html"
+                }
+            ]
+        },
+        {
+            title: "Outstanding Student Researcher",
+            subtitle:
+                "Issued by University of Central Oklahoma · Oct 2009",
+            image: require("./assets/images/osr.png"),
+            imageAlt: "UCO Logo",
+            footerLink: [
+            ]
+        },
+        {
+            title: "Deans Honor Roll",
+            subtitle:
+                "Issued by University of Central Oklahoma · 2005, 2006, 2007, 2008",
+            image: require("./assets/images/uco.png"),
+            imageAlt: "UCO Logo",
+            footerLink: [
+            ]
+        },
+        {
+            title: "National Inter College Software Competition",
+            subtitle: "3rd Prize Recipient Chosen among high school and college students from all over the nation. Jan 2002",
+            image: require("./assets/images/noc.png"),
+            imageAlt: "Logo",
+            footerLink: [
+
+            ]
+        }
+    ],
+    display: true // Set false to hide this section, defaults to true
+};
 // Blogs Section
 
 const blogSection = {
@@ -788,6 +887,7 @@ export {
     openSource,
     bigProjects,
     achievementSection,
+    awardsSection,
     blogSection,
     talkSection,
     podcastSection,
