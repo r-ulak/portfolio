@@ -410,7 +410,7 @@ const workExperiences = {
             company: "Thompson Reuters",
             companylogo: require("./assets/images/work.png"),
             date: "Jun 2019 – Aug 2019",
-            desc: "Results-driven Senior Software Engineer at Thomson Reuters, contributing to the development of innovative solutions for a multinational media conglomerate.",            
+            desc: "Results-driven Senior Software Engineer at Thomson Reuters, contributing to the development of innovative solutions for a multinational media conglomerate.",
             descBullets: [
                 "Spearheaded the Dockerization of Node.js applications, optimizing efficiency and scalability in a corporate tax application.",
                 "Conducted comprehensive training sessions on Docker solutions, empowering developers with valuable skills and best practices."
@@ -421,50 +421,74 @@ const workExperiences = {
             company: "WatchGuard Video",
             companylogo: require("./assets/images/work.png"),
             date: "Dec 2018 – Jun 2019",
-            desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            desc: "Proven expertise in optimizing video archival processes and deploying microservices using Docker.",
+            descBullets: [
+                "Spearheaded the implementation of a RabbitMQ-based messaging system for a long-running video import process, enhancing data management efficiency.",
+                "Led the conversion of a cloud-based Evidence Management Solution to an On-Premise model, providing flexibility for customers who prefer local data storage."
+            ]
         },
         {
             role: "Senior Developer | Architect - Contractor",
             company: "DART",
             companylogo: require("./assets/images/work.png"),
             date: "Jul 2017 – Dec 2018",
-            desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            desc: "Played a pivotal role in modernizing legacy intranet ASP code to the latest .NET platforms, and introduced microservices architecture with ASP.NET Web API hosted on Azure.",
+            descBullets: [
+                "Revamped legacy intranet ASP code to contemporary .NET platforms and .NET Core 2.0.",
+                "Implemented microservices architecture utilizing ASP.NET Web API hosted on Azure, enhancing scalability and performance."
+            ]
         },
         {
             role: "Founder",
             company: "DataCareEmr",
             companylogo: require("./assets/images/work.png"),
             date: "Dec 2012 – Jan 2018",
-            desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            desc: "Founded DatacareEMR, which is an open-source electronic health records (EHR) and medical practice management solution. It provides features such as appointment scheduling, medical billing, prescription management, and patient demographics. OpenEMR supports various medical specialties and is designed to be customizable and adaptable to different healthcare settings.",
         },
         {
             role: "Senior Developer - Contractor",
             company: "WorldVentures",
             companylogo: require("./assets/images/work.png"),
             date: "Dec 2012 – Jan 2018",
-            desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            desc: "Revamped legacy systems at WorldVentures with microservices and continuous integration, utilizing .NET and Angular, ensuring enhanced efficiency and scalability.",
+            descBullets: [
+                "Orchestrated the re-architecture of back-office applications at WorldVentures, introducing a scalable microservices design.",
+                "Implemented automated testing strategies and continuous integration, improving overall system reliability and performance."
+            ]
         },
         {
             role: "Software Engineer III - Contractor",
             company: "Motorsport Aftermarket Group, Inc. (MAG)",
             companylogo: require("./assets/images/work.png"),
             date: "Sep 2015 – Mar 2016",
-            desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            desc: "Led the re- architecture of monolithic web services into scalable microservices, enhancing efficiency and implementing continuous integration at MAG(Motorsport Aftermarket Group).",
+            descBullets: [
+                "Enhanced SEO for jpcycles.com and motorcycle-superstore.com to boost online visibility and traffic.",
+                "Configured, optimized, and maintained Endeca search engine for e-commerce sites, contributing to a seamless user experience."
+            ]
         }, {
             role: "Technical Lead",
             company: "Hewlett Packard Enterprise",
             companylogo: require("./assets/images/work.png"),
             date: "Oct 2009 – Sep 2015",
-            desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            desc: "Led the implementation of Affordable Care Act (ACA) projects, including eligibility rules engine, online Medicaid system, and call center solutions, demonstrating strong technical leadership and adherence to compliance standards. Engaged in diverse responsibilities, from server setup to software development, while consistently achieving high performance and recognition.",
+            descBullets: [
+                "Spearheaded the migration of legacy systems to modern platforms, demonstrating expertise in software architecture and design.",
+                "Implemented service-oriented architecture (SOA) strategies, optimizing inter-component messaging and interaction for enhanced system performance."
+            ]
         },
         {
             role: "CoFounder",
             company: "Collaborative Fusion Solution",
             companylogo: require("./assets/images/work.png"),
             date: "Dec 2008 – Dec 2009",
-            desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            desc: "Led the design and development of rich UI applications with Web 2.0 technologies, fostering effective communication and collaboration within project teams.",
+            descBullets: [
+                "Spearheaded the development of standards-compliant web UIs, emphasizing cross-browser compatibility and optimization for mobile devices.",
+                "Provided creative insights to project teams, enhancing the user experience and translating functional requirements into robust technical architectures."
+            ]
         }
-        
+
     ]
 };
 
@@ -638,7 +662,8 @@ const achievementSection = {
             footerLink: [
                 {
                     name: "Certificate",
-                    url: "https://www.linkedin.com/learning/certificates/aebcc8c9fa6825240b7c61e17354ba038203638b3c7bbbac65caf3e09fe5a06d?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BRFpFMwxGTkaLzaO9U2YoAg%3D%3D"                }
+                    url: "https://www.linkedin.com/learning/certificates/aebcc8c9fa6825240b7c61e17354ba038203638b3c7bbbac65caf3e09fe5a06d?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BRFpFMwxGTkaLzaO9U2YoAg%3D%3D"
+                }
             ]
         }, {
             title: "How to Speak with Effortless Confidence",
@@ -659,7 +684,8 @@ const achievementSection = {
             footerLink: [
                 {
                     name: "Certificate",
-                    url: "https://www.linkedin.com/learning/certificates/dc8b37330412441a2f1d0ead90d08d4a68828c9354bb4b3d5f469c90fd2d7825?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BRFpFMwxGTkaLzaO9U2YoAg%3D%3D"}
+                    url: "https://www.linkedin.com/learning/certificates/dc8b37330412441a2f1d0ead90d08d4a68828c9354bb4b3d5f469c90fd2d7825?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BRFpFMwxGTkaLzaO9U2YoAg%3D%3D"
+                }
             ]
         }, {
             title: "Pair Programming with AI",
@@ -669,7 +695,8 @@ const achievementSection = {
             footerLink: [
                 {
                     name: "Certificate",
-                    url: "https://www.linkedin.com/learning/certificates/9f28439e8f849de1b38e5ded0981a3eb085d2b282e5b16deb85c969b2f29ad78?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BRFpFMwxGTkaLzaO9U2YoAg%3D%3D"}
+                    url: "https://www.linkedin.com/learning/certificates/9f28439e8f849de1b38e5ded0981a3eb085d2b282e5b16deb85c969b2f29ad78?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BRFpFMwxGTkaLzaO9U2YoAg%3D%3D"
+                }
             ]
         }
     ],
