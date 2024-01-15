@@ -26,7 +26,7 @@ const greeting = {
         "With over 17 years of management and software development experience in overseeing enterprise-level development and support for diverse application ecosystems, I find immense fulfillment in providing hands-on technical leadership to guide engineering teams towards continuous success.I can't imagine a better career than providing the hands-on technical leadership that guides engineering teams to continuously achieve success."
     ),
     resumeLink:
-        "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+        "https://drive.google.com/file/d/1e4ZqfBiPnE4UWRg026Ry5heU8qzYFKQK/view?usp=sharing", // Set to empty to hide the button
     displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -351,7 +351,7 @@ const educationInfo = {
             desc: "Outstanding Student Researcher Award 2009",
             descBullets: [
                 "Consortium for Computing Sciences in Colleges 20thAnnual South Central Regional Conference - 1st Prize Recipient",
-                "Dean's Honor Roll -University of Central Oklahoma 2005, 2006, 2007, 2008"
+                "Dean's Honor Roll -University of Central Oklahoma 2005, 2006, 2007, 2008, 2009"
             ]
         }
     ]
@@ -784,7 +784,7 @@ const awardsSection = {
         {
             title: "Deans Honor Roll",
             subtitle:
-                "Issued by University of Central Oklahoma · 2005, 2006, 2007, 2008",
+                "Issued by University of Central Oklahoma · 2005, 2006, 2007, 2008, 2009",
             image: require("./assets/images/uco.png"),
             imageAlt: "UCO Logo",
             footerLink: [
