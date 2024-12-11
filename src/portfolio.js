@@ -23,7 +23,7 @@ const greeting = {
     username: "Rojan Ulak",
     title: "Hello all, I'm Rojan",
     subTitle: emoji(
-        "With over 20 years of management and software development experience in overseeing enterprise-level development and support for diverse application ecosystems, I find immense fulfillment in providing hands-on technical leadership to guide engineering teams towards continuous success.I can't imagine a better career than providing the hands-on technical leadership that guides engineering teams to continuously achieve success."
+        "I am a visionary technology leader with experience in building high-performing teams and driving digital transformation. My specialization is building innovative, revenue-generating products. I lead my team to create impactful solutions that enhance efficiency and customer experience. I am a trusted partner among my C-level executives. They have confidence in me to align IT initiatives with business goals, delivering measurable value and fostering a culture of collaboration, and engagement. <br/> With over 20 years of management and software development experience in overseeing enterprise-level development and support for diverse application ecosystems, I find immense fulfillment in providing hands-on technical leadership to guide engineering teams towards continuous success.I can't imagine a better career than providing the hands-on technical leadership that guides engineering teams to continuously achieve success."
     ),
     resumeLink:
         "https://drive.google.com/file/d/1e4ZqfBiPnE4UWRg026Ry5heU8qzYFKQK/view?usp=sharing", // Set to empty to hide the button
