@@ -43,7 +43,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
     title: "Techinical Leadership",
-    subTitle: "Software development leader with over 17 years of expertise, specializing in strategic planning, technical leadership, and proficient project delivery ",
+    subTitle: "Software development leader with over 20 years of expertise, specializing in strategic planning, technical leadership, and proficient project delivery ",
     skills: [
         emoji("⚡ Hands on approach on software development, infrastructure , deployment pipelines design and code security"),
         emoji("⚡ Led initiatives to fortify code and infrastructure security, demonstrating a steadfast commitment to robust practices, achieving industry compliance, and addressing potential vulnerabilities"),
