@@ -694,7 +694,7 @@ const achievementSection = {
         }, {
             title: "Agile Software Development",
             subtitle: "Issued Oct 2023",
-            image: require("./assets/images/linkedin.jpg"),
+            image: require("./assets/images/linkedin.png"),
             imageAlt: "linkedin logo",
             footerLink: [
                 {
@@ -705,7 +705,7 @@ const achievementSection = {
         }, {
             title: "Azure OpenAI: Generative AI Models and How to Use Them",
             subtitle: "Issued Oct 2023",
-            image: require("./assets/images/linkedin.jpg"),
+            image: require("./assets/images/linkedin.png"),
             imageAlt: "linkedin logo",
             footerLink: [
                 {
@@ -716,7 +716,7 @@ const achievementSection = {
         }, {
             title: "Communicating with Executives",
             subtitle: "Issued Oct 2023",
-            image: require("./assets/images/linkedin.jpg"),
+            image: require("./assets/images/linkedin.png"),
             imageAlt: "linkedin logo",
             footerLink: [
                 {
@@ -727,7 +727,7 @@ const achievementSection = {
         }, {
             title: "How to Learn Faster",
             subtitle: "Issued Oct 2023",
-            image: require("./assets/images/linkedin.jpg"),
+            image: require("./assets/images/linkedin.png"),
             imageAlt: "linkedin logo",
             footerLink: [
                 {
@@ -738,7 +738,7 @@ const achievementSection = {
         }, {
             title: "How to Speak with Effortless Confidence",
             subtitle: "Issued Oct 2023",
-            image: require("./assets/images/linkedin.jpg"),
+            image: require("./assets/images/linkedin.png"),
             imageAlt: "linkedin logo",
             footerLink: [
                 {
@@ -749,7 +749,7 @@ const achievementSection = {
         }, {
             title: "Leading with Innovation",
             subtitle: "Issued Oct 2023",
-            image: require("./assets/images/linkedin.jpg"),
+            image: require("./assets/images/linkedin.png"),
             imageAlt: "linkedin logo",
             footerLink: [
                 {
@@ -760,7 +760,7 @@ const achievementSection = {
         }, {
             title: "Pair Programming with AI",
             subtitle: "Issued Oct 2023",
-            image: require("./assets/images/linkedin.jpg"),
+            image: require("./assets/images/linkedin.png"),
             imageAlt: "linkedin logo",
             footerLink: [
                 {
