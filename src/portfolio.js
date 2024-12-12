@@ -338,6 +338,13 @@ const educationInfo = {
     display: true, // Set false to hide this section, defaults to true
     schools: [
         {
+            schoolName: "Southern Methodist University",
+            logo: require("./assets/images/smudallas_logo.jpg"),
+            subHeader: "Tech CxO Excellence Certificate",
+            desc: "An intensive program preparing aspiring C-level executives with the strategic and leadership skills to drive innovation and business growth",
+
+        },
+        {
             schoolName: "Colorado State University",
             logo: require("./assets/images/csu.png"),
             subHeader: "Master of Science in Computer Science",
@@ -625,6 +632,18 @@ const achievementSection = {
 
     achievementsCards: [
         {
+            title: "Tech CxO Excellence Certificate",
+            subtitle:
+                "Issued Dec 2024",
+            image: require("./assets/images/smu.png"),
+            imageAlt: "SMU logo",
+            footerLink: [
+                {
+                    name: "Certificate",
+                    url: "https://www.credly.com/badges/176f30e1-d5dd-4fef-8138-5eebdd4a9118/public_url"
+                }
+            ]
+        },{
             title: "Microsoft Certified: Azure Fundamentals",
             subtitle:
                 "Issued Aug 2023",
