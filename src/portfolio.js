@@ -25,8 +25,7 @@ const greeting = {
     subTitle: emoji(
         "I am a visionary technology leader with experience in building high-performing teams and driving digital transformation. My specialization is building innovative, revenue-generating products. I lead my team to create impactful solutions that enhance efficiency and customer experience. I am a trusted partner among my C-level executives. They have confidence in me to align IT initiatives with business goals, delivering measurable value and fostering a culture of collaboration, and engagement.  I find immense fulfillment in providing hands-on technical leadership to guide engineering teams towards continuous success. I can't imagine a better career than providing the leadership that guides technology teams to continuously achieve success."
     ),
-    resumeLink:
-        "https://drive.google.com/file/d/1e4ZqfBiPnE4UWRg026Ry5heU8qzYFKQK/view?usp=sharing", // Set to empty to hide the button
+    resumeLink: "", // Set to empty to hide the button
     displayGreeting: true // Set false to hide this section, defaults to true
 };
 
