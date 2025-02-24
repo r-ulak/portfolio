@@ -390,7 +390,7 @@ const workExperiences = {
     display: true, //Set it to true to show workExperiences Section
     experience: [
         {
-            role: "Senior Manager Software Engineer",
+            role: "Director Software Engineer",
             company: "DART",
             companylogo: require("./assets/images/work.png"),
             date: "Aug 2019 – Present",
