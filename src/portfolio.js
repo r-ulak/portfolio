@@ -401,18 +401,7 @@ const workExperiences = {
             ]
         },
         {
-            role: "Founder",
-            company: "Rojan Ulak LLC",
-            companylogo: require("./assets/images/work.png"),
-            date: "Jan 2016 – Present",
-            desc: "Established an independent software consulting business, specializing in custom software solutions.",
-            descBullets: [
-                "Managed end-to-end project lifecycles, including requirement analysis, solution design, coding, testing, and deployment.",
-                "Demonstrated adaptability by working on a variety of projects spanning different industries, showcasing a versatile skill set."
-            ]
-        },
-        {
-            role: "Senior Software Engineer - Contractor",
+            role: "Software Architect Consultant",
             company: "Thompson Reuters",
             companylogo: require("./assets/images/work.png"),
             date: "Jun 2019 – Aug 2019",
@@ -423,8 +412,8 @@ const workExperiences = {
             ]
         },
         {
-            role: "Senior Software Engineer",
-            company: "WatchGuard Video",
+            role: "Senior Solution Architect",
+            company: "Motorola Solutions",
             companylogo: require("./assets/images/work.png"),
             date: "Dec 2018 – Jun 2019",
             desc: "Proven expertise in optimizing video archival processes and deploying microservices using Docker.",
@@ -434,7 +423,7 @@ const workExperiences = {
             ]
         },
         {
-            role: "Senior Developer | Architect - Contractor",
+            role: "Senior Architect Consultant",
             company: "DART",
             companylogo: require("./assets/images/work.png"),
             date: "Jul 2017 – Dec 2018",
@@ -452,7 +441,7 @@ const workExperiences = {
             desc: "Founded DatacareEMR, which is an open-source electronic health records (EHR) and medical practice management solution. It provides features such as appointment scheduling, medical billing, prescription management, and patient demographics. OpenEMR supports various medical specialties and is designed to be customizable and adaptable to different healthcare settings.",
         },
         {
-            role: "Senior Developer - Contractor",
+            role: "Lead Software Architect Consultant",
             company: "WorldVentures",
             companylogo: require("./assets/images/work.png"),
             date: "Dec 2012 – Jan 2018",
@@ -463,7 +452,7 @@ const workExperiences = {
             ]
         },
         {
-            role: "Software Engineer III - Contractor",
+            role: "Principal Software Engineer Consultant",
             company: "Motorsport Aftermarket Group, Inc. (MAG)",
             companylogo: require("./assets/images/work.png"),
             date: "Sep 2015 – Mar 2016",
@@ -473,7 +462,7 @@ const workExperiences = {
                 "Configured, optimized, and maintained Endeca search engine for e-commerce sites, contributing to a seamless user experience."
             ]
         }, {
-            role: "Technical Lead",
+            role: "Technical Area Lead",
             company: "Hewlett Packard Enterprise",
             companylogo: require("./assets/images/work.png"),
             date: "Oct 2009 – Sep 2015",
